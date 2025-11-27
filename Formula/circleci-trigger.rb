@@ -3,8 +3,8 @@ class CircleciTrigger < Formula
 
   desc "CircleCI trigger CLI"
   homepage "https://github.com/rajeshfintech/circleci-trigger"
-  url "https://github.com/rajeshfintech/circleci-trigger/releases/download/v0.2.6/circleci_trigger-0.2.6.tar.gz"
-  sha256 "adc5ac4b08e1fab53eca7215d8686355c34f46d2d0a88e5f7397a494caab94c7"
+  url "https://github.com/rajeshfintech/circleci-trigger/releases/download/v0.2.7/circleci_trigger-0.2.7.tar.gz"
+  sha256 "3b7b606ab3ae821e705d9b8283db27df217003bc437828cf529d96076cd844de"
   license "MIT"
 
   depends_on "python@3.12"
