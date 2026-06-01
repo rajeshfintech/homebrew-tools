@@ -86,59 +86,6 @@ Export your CircleCI API token:
 `export CIRCLECI_TOKEN="your-token-here"`
 
 The CLI will read this automatically.
-
----
-
-# 🚀 Usage
-
-## **Trigger IAC pipeline**
-
-The IAC pipeline uses a `TAG` parameter:
-
-`circleci-trigger --iac \   --prefix QA \   --repo-name myservice \   --jira NTP-1234`
-
-This sends:
-
-`TAG = QA.myservice.NTP-1234`
-
-## **Trigger K8S pipeline**
-
-The K8S pipeline uses a `NEW` parameter:
-
-`circleci-trigger --k8s \   --prefix QA \   --repo-name myservice \   --hash a1b2c3d4`
-
-This sends:
-
-`NEW = QA.myservice.a1b2c3d4`
-
-## **Interactive Mode**
-
-If you run without flags:
-
-`circleci-trigger`
-
-You will be prompted:
-
-`iac or k8s?`
-
-Then asked for only the required fields.
-
----
-
-# 🛠 Configuration File
-
-Located at:
-
-`~/.circleci-trigger/config.yml`
-
-Example:
-
-`circleci_token_env_var: CIRCLECI_TOKEN org: instadevelopers vcs: bitbucket iac_repo: n1-iac k8s_repo: n1-k8s`
-
-You can edit this manually or regenerate with:
-
-`circleci-trigger init`
-
 ---
 
 # 🔄 Automatic Updates & Versioning
