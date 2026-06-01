@@ -6,8 +6,8 @@ class TabAutoGrouper < Formula
   # Update url and sha256 after creating the first GitHub release:
   #   git tag v1.0.0 && git push origin v1.0.0
   #   curl -sL https://github.com/rajeshfintech/chrome-tab-grouper/archive/refs/tags/v1.0.0.tar.gz | shasum -a 256
-  url "https://github.com/rajeshfintech/chrome-tab-grouper/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "1edb1dc6647052a6f6b4842f3ebf57f4be219ad3f78c150533d93669f370569f"
+  url "https://github.com/rajeshfintech/chrome-tab-grouper/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "0e46879b5073def131025125116ae1d3de806df3c520468ab7baf140d4c6c63b"
   license "MIT"
 
   depends_on "python@3.12"
