@@ -3,8 +3,8 @@ class TabAutoGrouper < Formula
 
   desc "Automatically group Chrome tabs by URL rules — CLI + unpacked extension"
   homepage "https://github.com/rajeshfintech/chrome-tab-grouper"
-  url "https://github.com/rajeshfintech/chrome-tab-grouper/archive/refs/tags/v1.1.4.tar.gz"
-  sha256 "ebcbc7a59ee926cd29f7be3d96e1d7e8462fc69db9343c2b4efe31dfa1727bcf"
+  url "https://github.com/rajeshfintech/chrome-tab-grouper/archive/refs/tags/v1.1.5.tar.gz"
+  sha256 "94b432081562a33a9bd8f706d6a9bd701472c26548c00d74a81ff2370c08464d"
   license "MIT"
 
   depends_on "python@3.12"
