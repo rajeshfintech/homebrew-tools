@@ -34,35 +34,16 @@ Key points:
 
 ---
 
-### `circleci-trigger`
-
-Trigger CircleCI pipelines (IAC / K8S) from the terminal without touching the web UI.
-
-```bash
-brew install rajeshfintech/tools/circleci-trigger
-circleci-trigger init    # one-time setup wizard
-export CIRCLECI_TOKEN="your-token"
-circleci-trigger --help
-```
-
-→ [Full docs](https://github.com/rajeshfintech/circleci-trigger)
-
----
-
 ## Upgrading
 
 ```bash
 brew update
-brew upgrade                        # upgrades all installed formulas
-# or one at a time:
 brew upgrade tab-auto-grouper
-brew upgrade circleci-trigger
 ```
 
 ## Uninstalling
 
 ```bash
 brew uninstall tab-auto-grouper
-brew uninstall circleci-trigger
 brew untap rajeshfintech/tools      # remove the tap entirely
 ```
