@@ -3,8 +3,8 @@ class TabAutoGrouper < Formula
 
   desc "Automatically group Chrome tabs by URL rules — CLI + unpacked extension"
   homepage "https://github.com/rajeshfintech/chrome-extensions"
-  url "https://github.com/rajeshfintech/chrome-extensions/archive/refs/tags/v1.1.7.tar.gz"
-  sha256 "e094ca081d136bce40f19218cc8bdfbfc9365bf1522e71605ddd85dbbdbca3f7"
+  url "https://github.com/rajeshfintech/chrome-extensions/archive/refs/tags/tab-auto-grouper-v1.1.7.tar.gz"
+  sha256 "82317d28d3cbbc7fb416f8ef87fd9811b66d847f93c40857e451f8a21f2414c3"
   license "MIT"
 
   depends_on "python@3.12"
@@ -19,10 +19,9 @@ class TabAutoGrouper < Formula
     venv = virtualenv_create(libexec/"venv", "python3.12")
     venv.pip_install resources
 
-    # Install the CLI and extension template.
-    # cli.py uses __file__ to locate config.yaml and extension/ at runtime,
-    # so they must all live together in libexec.
-    libexec.install "cli.py", "config.yaml", "extension"
+    cd "tab-auto-grouper" do
+      libexec.install "cli.py", "config.yaml", "extension"
+    end
 
     # Wrapper: invokes cli.py via the venv's Python so PyYAML is importable.
     (bin/"tabgroups").write <<~BASH
