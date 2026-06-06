@@ -1,8 +1,8 @@
 class AutoTabCloser < Formula
   desc "Automatically closes logged-out Chrome tabs (AWS, Google, GitHub, etc.) after idle time"
-  homepage "https://github.com/rajeshfintech/chrome-tab-grouper"
-  url "https://github.com/rajeshfintech/chrome-tab-grouper/archive/refs/tags/auto-tab-closer-v1.0.0.tar.gz"
-  sha256 "83b53f182c02d7aa6158c966d1d0ca93d7dfac2f5e2bd361322841b8692244a0"
+  homepage "https://github.com/rajeshfintech/chrome-extensions"
+  url "https://github.com/rajeshfintech/chrome-extensions/archive/refs/tags/auto-tab-closer-v1.0.0.tar.gz"
+  sha256 "9aca653ed57254b57df8bf8281d40f468df892acd40abb35735ff86f40f9f8eb"
   license "MIT"
 
   depends_on "python@3.12"

@@ -30,7 +30,7 @@ Key points:
 - Your config lives at `~/.config/tab-auto-grouper/config.yaml` and is **never touched by `brew upgrade`**
 - After upgrading, reload the extension in `chrome://extensions` → ↺
 
-→ [Full docs](https://github.com/rajeshfintech/chrome-tab-grouper)
+→ [Full docs](https://github.com/rajeshfintech/chrome-extensions)
 
 ---
 
@@ -52,7 +52,7 @@ Key points:
 - Covers AWS, Google/Gmail, GitHub, Microsoft, LinkedIn, Slack, Okta, GitLab, Atlassian out of the box
 - After upgrading, reload the extension in `chrome://extensions` → ↺
 
-→ [Full docs](https://github.com/rajeshfintech/chrome-tab-grouper)
+→ [Full docs](https://github.com/rajeshfintech/chrome-extensions)
 
 ---
 
