@@ -38,7 +38,8 @@ Key points:
 
 Automatically closes Chrome tabs that have been logged out (AWS, Google, GitHub, etc.).
 Detects the redirect to a login page and starts a 10-minute idle timer — focusing the tab
-resets the timer; navigating away cancels it.
+resets the timer; navigating away cancels it. Any link can also be watched manually from
+the toolbar popup for closure after the same timeout.
 
 ```bash
 brew install rajeshfintech/tools/auto-tab-closer
